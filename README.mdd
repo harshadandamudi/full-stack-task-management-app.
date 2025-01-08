@@ -1,0 +1,20 @@
+# full-stack-task-management-app. 
+
+State Management:
+Used React Context to manage the application state .
+
+#Features
+Login Page:
+- A login form that accepts username and password.
+- After login navigates to MenuPage.
+Menu Page:
+- Logined username is shown on the Header.
+- A Sidebar that consists categories.
+- Displayed all menu items in a grid layout.
+- Added menus and showed it according to categories.
+- while clicked on Add items are added to platter items.
+- Displayed a pop-up on click of confirm platter to place order.
+
+
+
+
