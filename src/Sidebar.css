@@ -1,0 +1,46 @@
+.sidebar {
+  width: 18%;
+  padding: 15px;
+  border-right: 2px solid#f4f2ff;
+}
+.sidebar .search-bar {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: #5000a2;
+  border: 2px solid #5000a2;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.sidebar ::placeholder{
+  color: #5000a2;
+}
+.sidebar .categories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar .category {
+  display: flex;
+  font-size: 1rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.category {
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.category:hover {
+    background-color:#eedeff;
+    width: 100%;
+    color: #5000a2;
+    font-weight: bold;
+}
+  
